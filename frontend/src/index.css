@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0B0F19] text-gray-100 font-sans antialiased min-h-screen selection:bg-purple-500/30 selection:text-purple-200;
+  }
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  @apply bg-[#111827]/80 backdrop-blur-xl border border-gray-800/80 rounded-2xl shadow-xl hover:border-gray-700/80 transition-all duration-300;
+}
+
+.glass-card-sm {
+  @apply bg-[#111827]/60 backdrop-blur-lg border border-gray-800/60 rounded-xl shadow-md;
+}
+
+/* Gradient Text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400;
+}
+
+.gradient-text-amber {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-rose-400;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2937;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}

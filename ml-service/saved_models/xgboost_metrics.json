@@ -1,0 +1,30 @@
+{
+  "roc_auc": 0.9999,
+  "precision": 1.0,
+  "recall": 0.9999,
+  "f1_score": 0.9999,
+  "train_samples": 229014,
+  "test_samples": 57254,
+  "feature_importance": {
+    "payment_attempts": 0.3279,
+    "total_clicks": 0.3178,
+    "pages_viewed": 0.2453,
+    "checkout_progress": 0.0584,
+    "cart_value": 0.0153,
+    "time_on_site_seconds": 0.0138,
+    "avg_time_per_page": 0.0095,
+    "items_removed": 0.0067,
+    "cart_items_count": 0.004,
+    "items_added": 0.0013,
+    "time_since_last_action": 0.0,
+    "payment_failures": 0.0,
+    "scroll_depth_avg": 0.0,
+    "unique_pages": 0.0,
+    "cart_value_changes": 0.0,
+    "has_searched": 0.0,
+    "device_type_mobile": 0.0,
+    "returning_user": 0.0,
+    "session_hour": 0.0,
+    "day_of_week": 0.0
+  }
+}

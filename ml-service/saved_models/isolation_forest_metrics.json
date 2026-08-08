@@ -1,0 +1,9 @@
+{
+  "total_sessions": 286268,
+  "normal_count": 271954,
+  "anomaly_count": 14314,
+  "anomaly_rate": 0.05,
+  "score_min": -0.1215,
+  "score_max": 0.1496,
+  "score_mean": 0.069
+}
